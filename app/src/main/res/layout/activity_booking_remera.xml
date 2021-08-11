@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookingRemera">
+
+    <TextView
+        android:id="@+id/tvnatural"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="ONLINE BOOKING FOR RFTC REMERA DOWNTOWN BUS "
+        android:textColor="#2E8B57"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="50dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="163dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Enter your Full name"
+        android:inputType="textPersonName"
+        android:textColor="#2E8B57"
+        android:textColorHighlight="#2E8B57"
+        android:textColorHint="#2E8B57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnatural" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:textColor="#2E8B57"
+        android:textColorHint="#2E8B57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnatural" />
+
+    <EditText
+        android:id="@+id/hotel"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:hint=" Enter initial place"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        android:textColor="#2E8B57"
+        android:textColorHint="#2E8B57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:hint="Enter Distanation place"
+        android:inputType="textPersonName"
+        android:textColor="#2E8B57"
+        android:visibility="gone"
+        android:textColorHint="#2E8B57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="#028C8484"
+        android:inputType="date"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Date"
+        android:textColor="#2E8B57"
+        android:textColorHint="#2E8B57"
+        android:textSize="22sp"
+        android:ems="10"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:drawableRight="@drawable/ic_calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotel"/>
+
+    <EditText
+        android:id="@+id/Number2"
+        android:layout_width="183dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="3dp"
+        android:background="#028C8484"
+        android:inputType="time"
+        android:padding="10dp"
+        android:hint="Entry time"
+        android:ems="10"
+        android:textColor="#2E8B57"
+        android:textColorHint="#2E8B57"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room"
+        android:drawableEnd="@drawable/ic_time"
+        android:drawableRight="@drawable/ic_time"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Booking"
+        app:backgroundTint="#2E8B57"
+        app:layout_constraintTop_toBottomOf="@+id/Number2"
+        tools:layout_editor_absoluteX="146dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

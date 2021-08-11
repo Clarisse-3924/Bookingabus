@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Booking RFTC Bus</string>
+    <string name="used">Used</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

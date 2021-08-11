@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin">
+    <RelativeLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imges"
+            android:background="@drawable/rftc">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin is able to view Booking"
+            android:id="@+id/textView"
+            android:textSize="24dp"
+            android:layout_below="@+id/imges"
+            android:textStyle="bold"
+            android:textColor="#2E8B57"
+            >
+
+        </TextView>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#2E8B57"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="REMERA-Downtown :    101"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2E8B57" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#2E8B57"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Kimironko-Nyabugogo:302"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2E8B57" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/button1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#2E8B57"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Nyamirambo-DownTown:401"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2E8B57"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/button1"
+            android:background="#2E8B57"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Kagugu-ULK-DownTown:     313"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#2E8B57" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

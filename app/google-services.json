@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135218426897",
+    "project_id": "bookingabus-50dcb",
+    "storage_bucket": "bookingabus-50dcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135218426897:android:04acbb37ed0143e769adb0",
+        "android_client_info": {
+          "package_name": "com.example.bookingabus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135218426897-24vi87dcm0503ap8aq27kqjdp2kg5r9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsYzxY2vZuiyiMzfWYGjsO9YpSB_zaCtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135218426897-24vi87dcm0503ap8aq27kqjdp2kg5r9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
