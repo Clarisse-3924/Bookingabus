@@ -8,7 +8,7 @@ This projects help users to book RFTC bus.  It contain three users, Admin,passen
 # Menu
 ![menu](Images/Screenshot_20210811-094236.png)
 # Booking page
-![booking](Images/Screenshot_20210811-094244.png
+![booking](Images/Screenshot_20210811-094244.png)
 # Login as Admin
 ![adminlogin](Images/Screenshot_20210811-094252.png)
 #  Admin Dashboard
@@ -24,5 +24,4 @@ This projects help users to book RFTC bus.  It contain three users, Admin,passen
 ![payment](Images/Screenshot_20210811-094423.png)
 ![payment](Images/Screenshot_20210811-094444.png)
 ![payment](Images/Screenshot_20210811-094459.png)
-# Logout
-![Logout](images/Screenshot_20210810-194333.png)
+
